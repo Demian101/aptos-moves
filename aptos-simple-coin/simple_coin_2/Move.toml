@@ -1,0 +1,10 @@
+[package]
+name = 'my_coin'
+version = '0.0.0'
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "16bec80146da2f3fd28b948cf25f807e09e92e23" }
+
+[addresses]
+my_address = "0x111c1ebdec15bc4f9e84cb42a4502f90243009386109c6c7e334f1e6d9c8e932"

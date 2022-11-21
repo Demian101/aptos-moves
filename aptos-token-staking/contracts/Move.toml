@@ -1,0 +1,14 @@
+[package]
+name = 'soda_staking'
+version = '1.0.0'
+
+
+[addresses]
+staking = "0x6d32845c994fd8af2724ac85284bf628a0ecbd4be37f6599ce4161bf307554ad"
+Std = "0x1"
+aptos_std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework/", rev="23d258d1f2440267f866eeb27f9830be48682af8" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-stdlib/", rev="23d258d1f2440267f866eeb27f9830be48682af8" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-token/", rev="23d258d1f2440267f866eeb27f9830be48682af8" }

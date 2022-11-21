@@ -1,0 +1,29 @@
+---
+compiled_package_info:
+  package_name: my_coin
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    my_address: 111c1ebdec15bc4f9e84cb42a4502f90243009386109c6c7e334f1e6d9c8e932
+    my_coin: 111c1ebdec15bc4f9e84cb42a4502f90243009386109c6c7e334f1e6d9c8e932
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 17434D976A63482B3E50169E5A8EA49EDAA9CF13D5AF9D90F5F6E550B55E329F
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      my_coin: 111c1ebdec15bc4f9e84cb42a4502f90243009386109c6c7e334f1e6d9c8e932
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: true
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
